@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Arigato: AI Prompt Optimizer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+      }
+    </script>
+    <style>
+      :root {
+        --color-cyan: #00f2ff;
+        --color-dark-bg: #0a0a10;
+        --color-light-bg: #f5f7fa;
+      }
+      body {
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        font-family: 'Inter', sans-serif;
+        background-color: var(--color-light-bg);
+        transition: background-color 0.3s ease;
+      }
+      .dark body {
+        background-color: var(--color-dark-bg);
+        background-image: 
+          radial-gradient(circle at 15% 25%, rgba(0, 80, 150, 0.2), transparent 30%),
+          radial-gradient(circle at 85% 75%, rgba(100, 0, 120, 0.15), transparent 40%),
+          radial-gradient(circle at 50% 50%, rgba(0, 150, 150, 0.1), transparent 50%);
+        background-attachment: fixed;
+        background-size: 100% 100%;
+      }
+
+      .font-heading {
+        font-family: 'Orbitron', sans-serif;
+      }
+
+      .neon-cyan-text {
+        font-family: 'Orbitron', sans-serif;
+        color: #0e0e1a;
+        text-shadow:
+            0 0 2px var(--color-cyan),
+            0 0 5px var(--color-cyan),
+            0 0 10px var(--color-cyan);
+      }
+      .dark .neon-cyan-text {
+        color: #fff;
+        text-shadow:
+            0 0 2px #fff,
+            0 0 5px var(--color-cyan),
+            0 0 10px var(--color-cyan),
+            0 0 20px var(--color-cyan);
+      }
+
+      .animate-fade-in {
+        animation: fadeIn 0.5s ease-out forwards;
+      }
+      .animate-slide-in-up {
+        animation: slideInUp 0.6s ease-out forwards;
+      }
+      .animate-delay-200 { animation-delay: 200ms; }
+      .animate-delay-400 { animation-delay: 400ms; }
+      .animate-delay-600 { animation-delay: 600ms; }
+
+      @keyframes fadeIn {
+        from { opacity: 0; }
+        to { opacity: 1; }
+      }
+      @keyframes slideInUp {
+        from {
+          opacity: 0;
+          transform: translateY(20px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.28.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="text-gray-900 dark:text-gray-100">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
