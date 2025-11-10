@@ -2,7 +2,7 @@
 
 Arigato is a smart web app that helps turn your not-so-clear ideas into really good prompts for any AI. It helps you get the most out of AI by making sure the AI understands what you want.
 
-![Working Flow Website Image](./services/mainflow.png)
+![Working Flow Website Image](./mainflow.png)
 
 **🚀 The Problem**
 
