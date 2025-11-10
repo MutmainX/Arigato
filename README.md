@@ -1,6 +1,6 @@
-**Arigato: AI Prompt Optimizer 🤖✨**
+# Arigato: AI Prompt Generator and Optimizer 🤖✨
 
-Arigato is a smart web app that helps turn your not-so-clear ideas into really good prompts for any AI. It helps you get the most out of AI by making sure the AI understands what you want.
+## Arigato is a smart web app that helps turn your not-so-clear ideas into really good prompts for any AI. It helps you get the most out of AI by making sure the AI understands what you want.
 
 ![Working Flow Website Image](./mainflow.png)
 
@@ -12,7 +12,7 @@ AI can do amazing things, but it only works well if you give it a good prompt. W
 
 Arigato is like your personal helper for prompts. It uses the Google Gemini API to take your rough ideas and make them better using a special method. The result is a great prompt that you can use with different AI models like Gemini, ChatGPT, and Claude.
 
-**✨ Key Features**
+## ✨ Key Features
 
 - **Smart Prompt Improvement:** Uses the Gemini API and a special "4-D Method" to make your prompts better.
 - **Choose Your AI:** It can tailor prompts for different AI models.
@@ -22,7 +22,7 @@ Arigato is like your personal helper for prompts. It uses the Google Gemini API 
 - **Examples:** You can see how a simple question becomes a great prompt.
 - **Copy and Use:** You can copy the prompt and use it right away.
 
-**🧠 How It Works: The 4-D Method**
+## 🧠 How It Works: The 4-D Method
 
 Arigato uses a special 4-D method to make your prompts better:
 
@@ -33,7 +33,7 @@ Arigato uses a special 4-D method to make your prompts better:
 
 This method makes sure your prompt is not just rewritten, but made much better.
 
-**Working Examples Screenshots**
+## Working Examples Screenshots
 ![Example1screenshot](./workingexamples1.png)
 ![Example2screenshot](./images/workingexamples2.png)
 ![roughtext](./images/roughprompt.png)
