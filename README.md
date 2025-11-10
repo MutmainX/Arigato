@@ -33,6 +33,14 @@ Arigato uses a special 4-D method to make your prompts better:
 
 This method makes sure your prompt is not just rewritten, but made much better.
 
+**Working Examples Screenshots**
+![Example1screenshot](./workingexamples1.png)
+![Example2screenshot](./images/workingexamples2.png)
+![roughtext](./images/roughprompt.png)
+![bestprompt](./images/modifiedprompt.png)
+
+
+
 **🛠️ Tech Stuff**
 
 - **Frontend:** Made with React and TypeScript.
