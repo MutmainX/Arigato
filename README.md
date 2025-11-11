@@ -51,6 +51,8 @@ This method makes sure your prompt is not just rewritten, but made much better.
 
 **⚙️ Getting Started**
 
+## Run On Cloud 
+**using goiogle cloud or gemini api key
 ---
 
 ## Run Locally
