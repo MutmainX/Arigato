@@ -12,6 +12,8 @@ AI can do amazing things, but it only works well if you give it a good prompt. W
 
 Arigato is like your personal helper for prompts. It uses the Google Gemini API to take your rough ideas and make them better using a special method. The result is a great prompt that you can use with different AI models like Gemini, ChatGPT, and Claude.
 
+** [Try it Here](https://ai.studio/apps/drive/1tXOGfqkTGXRheHNKKpge2PGXCNsfbXOu) 
+
 ## ✨ Key Features
 
 - **Smart Prompt Improvement:** Uses the Gemini API and a special "4-D Method" to make your prompts better.
